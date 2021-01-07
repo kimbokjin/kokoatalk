@@ -3,14 +3,21 @@
   <head>
     <style>
       div {
-        display: inline;
-        height: 150px;
-        width: 150px;
-        background-color: tomato;
+        background-color: yellow;
+        width: 300px;
+        height: 300px;
       }
-      span {
-        display: block;
+      body {
+        height: 1000vh;
+        background-color: white;
+        margin: 50px;
+      }
+      .green {
         background-color: teal;
+        height: 100px;
+        position: absolute;
+        top: -10px;
+        width: 100px;
       }
     </style>
     <link
@@ -24,13 +31,8 @@
   </head>
 
   <body>
-    <div></div>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <a href="#">link</a>
-    <span>hello</span>
-    <img src="증명사진.jpg" />
-    <span>hello</span>
+    <div>
+      <div class="green"></div>
+    </div>
   </body>
 </html>
