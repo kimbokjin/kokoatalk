@@ -14,3 +14,20 @@
 .screen-header__icon {
   margin-left: 50mm;
 }
+
+.header__dot__icon {
+  position: relative;
+}
+
+.header__dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
