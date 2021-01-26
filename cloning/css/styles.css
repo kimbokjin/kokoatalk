@@ -11,11 +11,21 @@
 @import "user-component.css";
 @import "badge.css";
 @import "find.css";
+@import "icon-row.css";
+@import "more.css";
+@import "alt-screen-header.css";
+@import "setting.css";
+@import "chat.css";
+@import "no-mobile.css";
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
 }
 
 .main-screen {
-  padding: 0px var(--horizontal-space);
+  margin: 0px var(--horizontal-space);
+}
+
+.main-chat {
+  margin-top: 150px;
 }
